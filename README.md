@@ -1,4 +1,4 @@
-# utilização de bibliotecas e ferramentas no projeto
+# utilização de bibliotecas e ferramentas 
 
 ```
 styled-components
