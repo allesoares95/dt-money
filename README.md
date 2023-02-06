@@ -54,3 +54,5 @@ rodar:
 npm run dev:server
 
 ```
+
+# Utilização de Reduce
