@@ -1,6 +1,6 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components'
 
-export const SumarryContainer = styled.section` 
+export const SumarryContainer = styled.section`
   width: 100%;
   max-width: 1120px;
   margin: 0 auto;
@@ -14,11 +14,11 @@ export const SumarryContainer = styled.section`
 `
 
 interface SumarryCardProps {
-  variant?: 'green';
+  variant?: 'green'
 }
 
 export const SumarryCard = styled.div<SumarryCardProps>`
-  background: ${props => props.theme["gray-600"]};
+  background: ${(props) => props.theme['gray-600']};
   border-radius: 6px;
   padding: 2rem;
 
@@ -26,7 +26,7 @@ export const SumarryCard = styled.div<SumarryCardProps>`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: ${props => props.theme["gray-300"]};
+    color: ${(props) => props.theme['gray-300']};
   }
 
   strong {
@@ -35,7 +35,9 @@ export const SumarryCard = styled.div<SumarryCardProps>`
     font-size: 2rem;
   }
 
-  ${props => props.variant === 'green' && css`
-    background: ${props.theme['green-700']};
-  `}
+  ${(props) =>
+    props.variant === 'green' &&
+    css`
+      background: ${props.theme['green-700']};
+    `}
 `

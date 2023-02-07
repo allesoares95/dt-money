@@ -53,6 +53,28 @@ adicionando um novo scripts
 rodar:
 npm run dev:server
 
-```
+utilização
+Reducer
+dateFormatter
+Criação de hooks
 
-# Utilização de Reduce
+hook-form zod
+utilização para formularios de validação e definição de schemas do formulario 
+schemas: qual é o formato do objetos de dado que ira receber quando for realizado
+um submit desse formulário 
+
+npm i react-hook-form zod
+npm i @hookform/resolvers 
+
+AXIOS
+
+npm i axios 
+
+
+ESLint
+
+npm i eslint @rocketseat/eslint-config -D
+para corrigir error: eslint src --ext .tsx,.ts --fix
+
+
+```
