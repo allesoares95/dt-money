@@ -53,7 +53,7 @@ $ npm run dev
 
 ---
 
-## Tecnologias utilizadas no projeto
+### Tecnologias utilizadas no projeto
 <h3>
 
  ``` 
@@ -65,7 +65,7 @@ $ npm run dev
 
 ---
 
-## CSS styled-components
+### CSS styled-components
 
 ```
 npm i styled-components
@@ -198,7 +198,7 @@ npm run lint --fix
 
 ---
 
-## Extensão React tools
+### Extensão React tools
 
   [React developer tools docs](https://beta.reactjs.org/learn/react-developer-tools)
 
