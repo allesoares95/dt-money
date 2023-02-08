@@ -78,3 +78,35 @@ para corrigir error: eslint src --ext .tsx,.ts --fix
 
 
 ```
+
+# React tools;
+
+Evitando reenderizações desnecessarias no react;
+
+Porque um componente renderiza?
+- Hooks changed (alteração de estado, contexto, reducer);
+- Props changed ( mudou propriedades);
+- Parent renendered ( componente pai renderizou);
+
+Qual o fluxo de renderização?
+1. O React recria o HTML da interface daquele componente;
+2. Compara a versão do HTML recriada com a versão anterior;
+3. Se mudou alguma coisa, ele reescreve o HTML na tela;
+
+Memo:
+0. Hooks changed, Props changed(deep comparison);
+0.1: Comparar com a versão anterior dos Hooks e Props;
+0.2: Se mudou algo, ele vai permitir a nova renderização;
+
+Memo será ultil quando tiver um HTML bem pesado para aplicações;
+Para um aumento no desempenho em alguns casos, através da memoização do resultado;
+
+Como utilizar useMemo para memorizar variaveis;
+hooks-useSummary;
+
+
+use-context-selector
+npm i use-context-selector scheduler
+
+Verificação de erros no typescript
+npx tsc --noEmit
