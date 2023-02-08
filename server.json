@@ -2,43 +2,51 @@
   "transactions": [
     {
       "id": 1,
-      "description": "Desenvolvimento de site",
+      "description": "Salario",
       "type": "income",
       "category": "Venda",
-      "price": 12000,
+      "price": 3000,
       "createAt": "2023-02-06T12:30:26.310Z"
     },
     {
-      "id": 2,
-      "description": "Apartamento",
+      "description": "Cartão de crédito",
+      "price": 800,
+      "category": "Compra",
       "type": "outcome",
-      "category": "Casa",
-      "price": 1200,
-      "createAt": "2023-02-06T17:30:26.310Z"
+      "createAt": "2023-02-08T19:43:19.573Z",
+      "id": 2
     },
     {
-      "id": 3,
-      "description": "Alimentação mensal",
+      "description": "Internet",
+      "price": 100,
+      "category": "Compra",
       "type": "outcome",
-      "category": "Comida",
-      "price": 850,
-      "createAt": "2023-02-06T17:50:26.310Z"
+      "createAt": "2023-02-08T19:43:53.653Z",
+      "id": 3
     },
     {
-      "description": "Desenvolvimento Design",
+      "description": "Desenvolvimento Web",
       "price": 3000,
       "category": "Venda",
       "type": "income",
-      "createAt": "2023-02-07T00:17:34.440Z",
+      "createAt": "2023-02-08T19:44:28.374Z",
       "id": 4
     },
     {
-      "description": "Restaurante",
-      "price": 300,
+      "description": "Aluguel",
+      "price": 1300,
       "category": "Compra",
       "type": "outcome",
-      "createAt": "2023-02-07T00:20:40.828Z",
+      "createAt": "2023-02-08T19:44:50.202Z",
       "id": 5
+    },
+    {
+      "description": "Despesa mensal",
+      "price": 1200,
+      "category": "Compra",
+      "type": "outcome",
+      "createAt": "2023-02-08T19:45:42.337Z",
+      "id": 6
     }
   ]
 }
