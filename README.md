@@ -211,9 +211,9 @@ npm run lint --fix
     <br><br>
 
   - Qual o fluxo de renderização?
-    1. O React recria o HTML da interface daquele componente;
-    2. Compara a versão do HTML recriada com a versão anterior;
-    3. Se mudou alguma coisa, ele reescreve o HTML na tela;
+    - O React recria o HTML da interface daquele componente;
+    - Compara a versão do HTML recriada com a versão anterior;
+    - Se mudou alguma coisa, ele reescreve o HTML na tela;
 
 ---
 
